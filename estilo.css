@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: inline-block;
+    background: rgb(0, 214, 252);
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+.navbar:hover {
+    background: rgba(0, 214, 252, 0.842);
+    color: white;
+}
+
+nav {
+    display: flex;
+    background: blue;
+    padding: 10px;
+    justify-content:space-around;
+}
+
+@media (max-width: 750px) {
+    nav {
+        flex-direction: column;
+    }
+    .navbar {
+        margin: 10px 0;
+    }
+    .contenedor1 {
+        flex-direction: column;
+    }
+    .contenedor2 {
+        flex-direction: column;
+    }
+    .contenedor3 {
+        flex-direction: column;
+    }
+    .contenedornba {
+        flex-direction: column;
+    }
+    .card {
+        margin: 10px 0;
+    }
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    color:  rgb(0, 214, 252);
+    font-family: 'Lobster';
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 0 0 20px white;
+}
+
+p {
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.salada {
+    color: black;
+    display: inline-block;
+    background-color: yellow;
+    text-align: center;
+}
+
+#ubicacion {
+    display: flex;
+    justify-content: end;
+    font-family: 'Indie Flower';
+    font-size: 20px;;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.main {
+    text-size-adjust: auto;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
+
+h3 {
+    color:  rgb(0, 214, 252);
+    font-size: 30px;
+    font-family: 'Indie Flower';
+    text-align: center;
+}
+
+section, article, label {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.contenedor1 {
+	display: flex;
+	padding: 40px 0;
+    justify-content: space-around;
+}
+.contenedor2 {
+	display: flex;
+	padding: 40px 0;
+    justify-content: space-around;
+}
+.contenedor3 {
+	display: flex;
+	padding: 40px 0;
+    justify-content: space-around;
+}
+
+.contenedornba {
+	display: flex;
+	padding: 40px 0;
+    justify-content: space-around;
+}
+
+.card {
+    display: inline-block;
+    background-color:  rgb(0, 214, 252);
+	padding: 10px 30px;
+	border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.card:hover {
+    background: rgba(0, 214, 252, 0.842);
+    color: white;
+}
