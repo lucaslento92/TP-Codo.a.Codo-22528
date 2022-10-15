@@ -86,6 +86,10 @@ p {
     width: 100%;
     bottom: 0;
 }
+.footer a {
+    color: white;
+    padding: 15px;
+}
 
 h3 {
     padding: 20px;
