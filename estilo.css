@@ -133,4 +133,15 @@ section, article, label {
     .card {
         margin: 10px 0;
     }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        /*margin-top: 50%;
+        width: 100%;
+        bottom: 0;*/
+        position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    }
 }
